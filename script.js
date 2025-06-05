@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('sizeForm');
     const sizeInput = document.getElementById('sizeInput');
 
-    createGrid(4);
+    createGrid(100);
 
     form.addEventListener('submit', (e) => {
         e.preventDefault();
