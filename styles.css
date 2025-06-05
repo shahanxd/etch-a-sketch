@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 640px;
+    width: 640px;
+    border: 1px solid #000;
+    margin: 20px auto;
+}
+
+.box {
+    border: 1px solid #acacac;
+    box-sizing: border-box;
+}
